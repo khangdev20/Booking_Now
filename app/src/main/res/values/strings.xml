@@ -1,7 +1,6 @@
 <resources>
     <string name="app_name">Booking Now</string>
     <string name="login">Đăng nhập</string>
-
     <string name="register">Đăng Ký</string>
     <string name="facebook">Facebook</string>
     <string name="google">Google</string>
@@ -15,6 +14,9 @@
     <string name="email">Email</string>
     <string name="adress">Địa chỉ</string>
     <string name="give_infor">Cho xin In4 đê!!</string>
+    <string name="otp">Nhập OTP</string>
+    <string name="otp_sent">Mã OTP đã được gửi về số điện thoại</string>
+
 
 
 

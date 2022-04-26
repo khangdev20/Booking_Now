@@ -1,17 +1,41 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
-    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:layout_alignParentStart="true"
-    android:layout_alignParentTop="true"
-    android:background="@color/white"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
     tools:context=".MainActivity">
 
 
+    <ImageView
+        android:id="@+id/mainLogo"
+        android:layout_width="200dp"
+        android:layout_height="96dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="false"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginEnd="-5dp"
+        android:contentDescription="@string/homeLogo"
+        app:srcCompat="@drawable/mainlogo" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/otp_sent"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/mainLogo"
+        android:fontFamily="@font/avobolditalic"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        android:gravity="center"
+        android:layout_marginStart="100dp"
+        android:layout_marginTop="70dp"
+        />
+
     <EditText
-        android:id="@+id/username"
+        android:id="@+id/txt_otp"
         android:layout_width="300dp"
         android:layout_height="70dp"
         android:layout_centerInParent="true"
@@ -19,23 +43,22 @@
         android:layout_marginTop="50dp"
         android:layout_marginRight="30dp"
         android:layout_marginBottom="30dp"
-        android:autofillHints="phone"
+        android:autofillHints="text"
         android:background="#FFFFFF"
         android:fontFamily="@font/avoitalic"
         android:gravity="center"
-        android:hint="@string/input_sdt"
-        android:inputType="phone"
+        android:hint="@string/otp"
+        android:inputType="number"
         android:padding="20dp"
         android:textColorHint="#D3D3D3"
         android:textSize="20sp" />
-
 
     <!-- Buttom Login -->
     <Button
         android:id="@+id/loginbtn"
         android:layout_width="300dp"
         android:layout_height="60dp"
-        android:layout_below="@id/username"
+        android:layout_below="@id/txt_otp"
         android:layout_centerHorizontal="true"
         android:backgroundTint="@color/main_green"
         android:fontFamily="@font/avo"
@@ -45,7 +68,7 @@
 
     <!-- Buttom Go Back -->
     <Button
-        android:id="@+id/btn_back"
+        android:id="@+id/gobackbtn"
         android:layout_width="300dp"
         android:layout_height="60dp"
         android:layout_alignWithParentIfMissing="false"
@@ -56,20 +79,5 @@
         android:text="@string/back"
         android:textAllCaps="false"
         android:textSize="20sp" />
-
-    <ImageView
-
-        android:id="@+id/homeLogo"
-        android:layout_width="200dp"
-        android:layout_height="96dp"
-        android:layout_marginTop="5dp"
-        android:layout_alignParentTop="true"
-        android:layout_alignParentEnd="false"
-        android:layout_marginEnd="-5dp"
-        android:layout_alignParentStart="true"
-        android:layout_marginStart="10dp"
-        app:srcCompat="@drawable/mainlogo"
-        android:contentDescription="@string/homeLogo"/>
-
 
 </RelativeLayout>
