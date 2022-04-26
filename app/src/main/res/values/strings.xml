@@ -1,3 +1,27 @@
 <resources>
     <string name="app_name">Booking Now</string>
+    <string name="login">Đăng nhập</string>
+
+    <string name="register">Đăng Ký</string>
+    <string name="facebook">Facebook</string>
+    <string name="google">Google</string>
+    <string name="next">Tiếp tục</string>
+    <string name="back">Trở về</string>
+    <string name="input_sdt">Nhập số điện thoại</string>
+    <string name="homeLogo">Home Logo</string>
+    <string name="mainLogo">Logo Chính</string>
+    <string name="input_fullname">Họ và tên</string>
+    <string name="input_birth">Năm sinh</string>
+    <string name="email">Email</string>
+    <string name="adress">Địa chỉ</string>
+    <string name="give_infor">Cho xin In4 đê!!</string>
+
+
+
+
+
+
+
+
+
 </resources>

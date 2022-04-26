@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:layout_alignParentLeft="true"
+    android:layout_alignParentStart="true"
     android:layout_alignParentTop="true"
     android:background="@color/white"
     tools:context=".MainActivity">
@@ -16,15 +16,18 @@
         android:layout_height="wrap_content"
         android:layout_below="@id/homeLogo"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="30dp"
+        android:layout_marginTop="25dp"
+        android:layout_marginBottom="15dp"
         android:fontFamily="@font/avo"
-        android:text="Cho xin In4 đê!!"
+        android:text="@string/give_infor"
         android:textColor="@color/black"
-        android:textSize="30dp" />
+        android:textSize="30sp" />
 
 
     <!--Input Full Name -->
     <EditText
+        android:autofillHints="name"
+        android:inputType="text"
         android:id="@+id/txt_fullname"
         android:layout_width="300dp"
         android:layout_height="70dp"
@@ -36,15 +39,17 @@
         android:background="#FFFFFF"
         android:fontFamily="@font/avoitalic"
         android:gravity="center"
-        android:hint="Họ và tên"
+        android:hint="@string/input_fullname"
         android:padding="20dp"
         android:textColorHint="#D3D3D3"
-        android:textSize="25dp" />
+        android:textSize="15sp" />
 
 
     <!-- Input   -->
 
     <EditText
+        android:autofillHints="creditCardExpirationYear"
+        android:inputType="date"
         android:id="@+id/txt_birth"
         android:layout_width="300dp"
         android:layout_height="70dp"
@@ -53,14 +58,16 @@
         android:background="#FFFFFF"
         android:fontFamily="@font/avoitalic"
         android:gravity="center"
-        android:hint="Năm sinh"
+        android:hint="@string/input_birth"
         android:padding="20dp"
         android:textColorHint="#D3D3D3"
-        android:textSize="25dp" />
+        android:textSize="15sp" />
 
     <!-- Input Email  -->
 
     <EditText
+        android:autofillHints="emailAddress"
+        android:inputType="textEmailAddress"
         android:id="@+id/txt_email"
         android:layout_width="300dp"
         android:layout_height="70dp"
@@ -69,14 +76,16 @@
         android:background="#FFFFFF"
         android:fontFamily="@font/avoitalic"
         android:gravity="center"
-        android:hint="Email"
+        android:hint="@string/email"
         android:padding="20dp"
         android:textColorHint="#D3D3D3"
-        android:textSize="25dp" />
+        android:textSize="15sp" />
 
     <!-- Input Adress  -->
 
     <EditText
+        android:inputType="text"
+        android:autofillHints="text"
         android:id="@+id/txt_adress"
         android:layout_width="300dp"
         android:layout_height="70dp"
@@ -85,10 +94,10 @@
         android:background="#FFFFFF"
         android:fontFamily="@font/avoitalic"
         android:gravity="center"
-        android:hint="Địa chỉ"
+        android:hint="@string/adress"
         android:padding="20dp"
         android:textColorHint="#D3D3D3"
-        android:textSize="25dp" />
+        android:textSize="15sp" />
 
 
     <Button
@@ -97,12 +106,12 @@
         android:layout_height="60dp"
         android:layout_below="@id/txt_adress"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="10dp"
+        android:layout_marginTop="25dp"
         android:backgroundTint="#3FD081"
         android:fontFamily="@font/avo"
-        android:text="Tiếp tục"
+        android:text="@string/next"
         android:textAllCaps="false"
-        android:textSize="20dp" />
+        android:textSize="20sp" />
 
     <!-- Buttom Go Back -->
     <Button
@@ -114,23 +123,23 @@
         android:layout_centerHorizontal="true"
         android:backgroundTint="#BCBCBC"
         android:fontFamily="@font/avo"
-        android:text="Tiếp tục"
+        android:text="@string/back"
         android:textAllCaps="false"
-        android:textSize="20dp" />
+        android:textSize="20sp" />
 
 
     <ImageView
-
         android:id="@+id/homeLogo"
         android:layout_width="200dp"
         android:layout_height="96dp"
-        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
         android:layout_alignParentTop="true"
-        android:layout_alignParentRight="false"
-        android:layout_marginLeft="10dp"
+        android:layout_alignParentEnd="false"
+        android:layout_marginStart="10dp"
         android:layout_marginTop="5dp"
-        android:layout_marginRight="-5dp"
-        app:srcCompat="@drawable/img" />
+        android:layout_marginEnd="-5dp"
+        app:srcCompat="@drawable/mainlogo"
+        android:contentDescription="@string/mainLogo"/>
 
 
 </RelativeLayout>

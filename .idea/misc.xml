@@ -3,6 +3,12 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/Administrator/StudioProjects/Booking_Now/app/src/main/res/font/font_family.xml" value="0.396875" />
+        <entry key="..\:/Users/Administrator/StudioProjects/Booking_Now/app/src/main/res/layout/activity_homescreen.xml" value="0.22" />
+        <entry key="..\:/Users/Administrator/StudioProjects/Booking_Now/app/src/main/res/layout/activity_login.xml" value="0.16" />
+        <entry key="..\:/Users/Administrator/StudioProjects/Booking_Now/app/src/main/res/layout/activity_main.xml" value="0.12604166666666666" />
+        <entry key="..\:/Users/Administrator/StudioProjects/Booking_Now/app/src/main/res/layout/input_Customer.xml" value="0.358695652173913" />
+        <entry key="..\:/Users/Administrator/StudioProjects/Booking_Now/app/src/main/res/layout/login_customer.xml" value="0.22" />
         <entry key="..\:/Workspace/Android_App_Booking/app/src/main/res/drawable/ic_booking_background.xml" value="0.142" />
         <entry key="..\:/Workspace/Android_App_Booking/app/src/main/res/font/font_family.xml" value="0.28020833333333334" />
         <entry key="..\:/Workspace/Android_App_Booking/app/src/main/res/layout/activity_input_customer_info.xml" value="0.25" />
