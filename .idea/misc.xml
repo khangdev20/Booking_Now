@@ -3,11 +3,16 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/Administrator/StudioProjects/Booking_Now/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.2985" />
+        <entry key="..\:/Users/Administrator/StudioProjects/Booking_Now/app/src/main/res/drawable/ic_booking_background.xml" value="0.2985" />
+        <entry key="..\:/Users/Administrator/StudioProjects/Booking_Now/app/src/main/res/drawable/ic_launcher_background.xml" value="0.2985" />
         <entry key="..\:/Users/Administrator/StudioProjects/Booking_Now/app/src/main/res/drawable/shape.xml" value="0.288" />
         <entry key="..\:/Users/Administrator/StudioProjects/Booking_Now/app/src/main/res/font/font_family.xml" value="0.396875" />
         <entry key="..\:/Users/Administrator/StudioProjects/Booking_Now/app/src/main/res/layout/activity_homescreen.xml" value="0.25" />
         <entry key="..\:/Users/Administrator/StudioProjects/Booking_Now/app/src/main/res/layout/activity_login.xml" value="0.16" />
+        <entry key="..\:/Users/Administrator/StudioProjects/Booking_Now/app/src/main/res/layout/activity_logout.xml" value="0.30473258945748366" />
         <entry key="..\:/Users/Administrator/StudioProjects/Booking_Now/app/src/main/res/layout/activity_main.xml" value="0.12604166666666666" />
+        <entry key="..\:/Users/Administrator/StudioProjects/Booking_Now/app/src/main/res/layout/activity_trangchu.xml" value="0.358695652173913" />
         <entry key="..\:/Users/Administrator/StudioProjects/Booking_Now/app/src/main/res/layout/input_Customer.xml" value="0.358695652173913" />
         <entry key="..\:/Users/Administrator/StudioProjects/Booking_Now/app/src/main/res/layout/login_customer.xml" value="0.22" />
         <entry key="..\:/Users/Administrator/StudioProjects/Booking_Now/app/src/main/res/layout/login_otp.xml" value="0.2" />

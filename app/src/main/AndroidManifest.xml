@@ -1,16 +1,27 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.example.android_app_booking" >
+    package="com.example.android_app_booking">
 
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_booking_now"
         android:label="@string/app_name"
         android:supportsRtl="true"
-        android:theme="@style/Theme.Android_App_Booking" >
+        android:theme="@style/Theme.Android_App_Booking">
+        <activity
+            android:name=".activity_trangchu"
+            android:exported="false" />
+        <activity
+            android:name=".activity_logout"
+            android:exported="false" />
+
+        <meta-data
+            android:name="com.google.android.actions"
+            android:resource="@xml/activity_logout" />
+
         <activity
             android:name=".MainActivity"
-            android:exported="true" >
+            android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

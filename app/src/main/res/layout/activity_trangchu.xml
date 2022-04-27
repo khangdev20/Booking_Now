@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activity_trangchu">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="534dp"
+            android:layout_height="342dp"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="-61dp"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="-86dp"
+            android:autofillHints=""
+            app:srcCompat="@drawable/nenxanh"
+            tools:layout_editor_absoluteX="0dp"
+            tools:layout_editor_absoluteY="-140dp" />
+
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="114dp"
+            android:layout_height="114dp"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="156dp"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="45dp"
+            app:srcCompat="@drawable/hinhtrontrang" />
+
+        <ImageView
+            android:id="@+id/imageView3"
+            android:layout_width="56dp"
+            android:layout_height="74dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="185dp"
+            android:layout_marginTop="65dp"
+            app:srcCompat="@drawable/img" />
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="192dp"
+            android:layout_height="27dp"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="117dp"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="181dp"
+            android:textAlignment="center"
+            android:textSize="17dp"
+            android:fontFamily="@font/avobold"
+            android:textColor="@color/black"
+            android:text="Võ Lê Nhựt Khang" />
+
+        <ImageButton
+            android:id="@+id/menu"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="45dp"
+            android:layout_marginTop="335dp"
+            android:adjustViewBounds="true"
+            android:autofillHints=""
+            android:backgroundTint="#ffffff"
+            android:contentDescription="@string/mainLogo"
+            android:scaleType="fitCenter"
+            app:srcCompat="@drawable/img_1" />
+
+        <ImageButton
+            android:id="@+id/sanbong"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="165dp"
+            android:layout_marginTop="335dp"
+            android:backgroundTint="@color/white"
+            android:contentDescription="@string/app_name"
+            android:scaleType="fitCenter"
+            app:srcCompat="@drawable/img_2" />
+
+        <ImageButton
+            android:id="@+id/imageButton4"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="285dp"
+            android:layout_marginTop="335dp"
+            android:backgroundTint="@color/white"
+            android:contentDescription="@string/app_name"
+            android:scaleType="fitCenter"
+            app:srcCompat="@drawable/img_3" />
+
+        <ImageButton
+            android:id="@+id/map"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="45dp"
+            android:layout_marginTop="455dp"
+            android:backgroundTint="@color/white"
+            android:contentDescription="@string/adress"
+            android:scaleType="fitCenter"
+            app:srcCompat="@drawable/img_4" />
+
+        <ImageButton
+            android:id="@+id/thanhtoan"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="165dp"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="455dp"
+            android:scaleType="fitCenter"
+            android:contentDescription="@string/next"
+            android:backgroundTint="@color/white"
+            app:srcCompat="@drawable/img_5" />
+
+        <ImageButton
+            android:id="@+id/dangxuat"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="285dp"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="455dp"
+            android:scaleType="fitCenter"
+            android:contentDescription="@string/back"
+            android:backgroundTint="@color/white"
+            app:srcCompat="@drawable/img_6" />
+
+        <ImageButton
+            android:id="@+id/chat"
+            android:layout_width="89dp"
+            android:layout_height="73dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="333dp"
+            android:layout_marginTop="555dp"
+            android:backgroundTint="@color/white"
+            android:contentDescription="@string/email"
+            android:scaleType="fitCenter"
+            app:srcCompat="@drawable/img_7" />
+
+    </FrameLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
